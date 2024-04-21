@@ -1,11 +1,11 @@
 <div align="center">
 
-# Next JS Startup Template
+# Next JS E-commerce App
 
 </div>
 
 ## About the repository
-A really nice and simple template for Next JS that comes with sass tailwind and biome js as the linter all **pre-configured** and is free for anyone to use.
+A really nice e-commerce website made using next js, typescript and tailwind css.
 
 ## Using the repository
 ### Cloning the repository
@@ -41,13 +41,3 @@ pnpm run lint-and-format
 pnpm run build
 pnpm start
 ```
-
-### Editing the application
-
---> To edit the application:
-
-- Edit the routes in the src/app directory
-  
---> When editing the application follow the following rules for scalability:
-- Use collocation
-- Static assets go in the public folder
