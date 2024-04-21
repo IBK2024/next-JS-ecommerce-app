@@ -1,0 +1,56 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.7.0/schema.json",
+  "organizeImports": {
+    "enabled": true
+  },
+  "formatter": {
+    "indentStyle": "space",
+    "indentWidth": 2,
+    "lineWidth": 120,
+    "lineEnding": "lf"
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "trailingComma": "es5",
+      "jsxQuoteStyle": "single",
+      "bracketSameLine": false,
+      "bracketSpacing": false,
+      "arrowParentheses": "always",
+      "quoteProperties": "asNeeded",
+      "semicolons": "always",
+      "attributePosition": "auto"
+    }
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "all": true,
+        "useKeyWithClickEvents": "off"
+      },
+      "complexity": {
+        "all": true
+      },
+      "correctness": {
+        "all": true
+      },
+      "performance": {
+        "all": true
+      },
+      "security": {
+        "all": true
+      },
+      "style": {
+        "all": true,
+        "useNamingConvention": "error",
+        "noDefaultExport": "off",
+        "useFragmentSyntax": "off"
+      },
+      "suspicious": {
+        "all": true
+      }
+    }
+  }
+}
