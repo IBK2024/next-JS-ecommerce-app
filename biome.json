@@ -49,7 +49,9 @@
         "useFragmentSyntax": "off"
       },
       "suspicious": {
-        "all": true
+        "all": true,
+        "noArrayIndexKey": "off",
+        "noConsoleLog": "off"
       }
     }
   }
