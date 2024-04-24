@@ -22,7 +22,7 @@ export default function Navbar() {
             <NavbarLink href='/' logo={true}>
               Logo
             </NavbarLink>
-            <ul className='items-center justify-between gap-8 hidden lg:flex'>
+            <ul className='items-center justify-between gap-8 hidden tablet:flex'>
               {navLinks.map((link, i) => (
                 <li key={i}>
                   <NavbarLink href={link.href}>{link.title}</NavbarLink>

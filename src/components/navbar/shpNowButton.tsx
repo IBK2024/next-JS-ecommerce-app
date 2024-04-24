@@ -11,7 +11,7 @@ export default function ShopNowButton({smallScreen}: ShopNowButtonProps) {
     return (
       <Link
         href='/categories'
-        className='bg-secondary text-primary tracking-normal py-2 px-4 text-xs rounded-3xl font-bold active:scale-95 hover:opacity-80 hidden lg:block'
+        className='bg-secondary text-primary tracking-normal py-2 px-4 text-xs rounded-3xl font-bold active:scale-95 hover:opacity-80 hidden tablet:block'
       >
         Shop Now
       </Link>

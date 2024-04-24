@@ -30,9 +30,9 @@ export default function DropDownNavbar({navbarLinks}: DropDownNavbarProps) {
         <Menu className='lg:hidden text-3xl fill-primary' onClick={menuButtonOnClick} />
       )}
       <ul
-        className={`absolute top-[70px] bg-smallNavbar rounded-xl w-smallNavbar2 overflow-hidden ${
+        className={`absolute top-[70px] bg-smallNavbar rounded-xl overflow-hidden ${
           isOpen ? 'h-fit' : 'h-0'
-        } backdrop-blur-lg left-8 right-8 sm:left-[unset] sm:right-8 sm:w-smallNavbar block lg:hidden`}
+        } backdrop-blur-lg left-8 right-8 phone:left-[unset] phone:right-8 phone:w-smallNavbar block tablet:hidden tablet:w-smallNavbar`}
       >
         {navbarLinks.map((link, i) => (
           <li className='p-3 flex items-center justify-center' key={i}>

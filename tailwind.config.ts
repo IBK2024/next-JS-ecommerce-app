@@ -8,6 +8,10 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      tablet: '900px',
+      phone: '500px',
+    },
     extend: {
       colors: {
         primary: '#ffffff',
@@ -20,7 +24,6 @@ const config: Config = {
       },
       width: {
         smallNavbar: '300px',
-        smallNavbar2: 'unset',
       },
       padding: {
         '1/2': '2px',
