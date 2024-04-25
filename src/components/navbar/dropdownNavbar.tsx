@@ -25,9 +25,9 @@ export default function DropDownNavbar({navbarLinks}: DropDownNavbarProps) {
   return (
     <Fragment>
       {isOpen ? (
-        <Xmark className='lg:hidden text-3xl fill-primary' onClick={xMarkButtonOnClick} />
+        <Xmark className='tablet:hidden text-3xl fill-primary' onClick={xMarkButtonOnClick} />
       ) : (
-        <Menu className='lg:hidden text-3xl fill-primary' onClick={menuButtonOnClick} />
+        <Menu className='tablet:hidden text-3xl fill-primary' onClick={menuButtonOnClick} />
       )}
       <ul
         className={`absolute top-[70px] bg-smallNavbar rounded-xl overflow-hidden ${
