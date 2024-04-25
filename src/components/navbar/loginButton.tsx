@@ -11,7 +11,7 @@ export default function LoginButton({smallScreen}: LoginButtonProps) {
     return (
       <Link
         href='/login'
-        className='hidden bg-transparent border-solid border-[1px] border-primary text-primary tracking-normal py-2 px-4 text-xs rounded-3xl font-bold hover:bg-secondary hover:border-none active:scale-95 tablet:block'
+        className='hidden bg-transparent border-solid border border-primary text-primary tracking-normal py-2 px-4 text-xs rounded-3xl font-bold hover:bg-secondary hover:border-none active:scale-95 tablet:block'
       >
         Login
       </Link>
@@ -19,7 +19,7 @@ export default function LoginButton({smallScreen}: LoginButtonProps) {
   }
   return (
     <Link
-      className='bg-transparent border-solid border-[1px] border-primary text-primary tracking-normal py-2 px-4 text-xs rounded-3xl font-bold hover:bg-secondary hover:border-none active:scale-95 w-full'
+      className='bg-transparent border-solid border border-primary text-primary tracking-normal py-2 px-4 text-xs rounded-3xl font-bold hover:bg-secondary hover:border-none active:scale-95 w-full'
       href='/login'
     >
       Login

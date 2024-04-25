@@ -36,9 +36,7 @@ export default function DropDownNavbar({navbarLinks}: DropDownNavbarProps) {
       >
         {navbarLinks.map((link, i) => (
           <li className='p-3 flex items-center justify-center' key={i}>
-            <NavbarLink small={true} href={link.href}>
-              {link.title}
-            </NavbarLink>
+            <NavbarLink href={link.href}>{link.title}</NavbarLink>
           </li>
         ))}
         <li className='p-3 flex items-center justify-center'>

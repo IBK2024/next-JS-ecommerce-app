@@ -5,7 +5,6 @@ import type {ReactNode} from 'react';
 interface NavbarLinkProps {
   children: ReactNode;
   logo?: true;
-  small?: true;
   href: string;
 }
 

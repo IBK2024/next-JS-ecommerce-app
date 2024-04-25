@@ -1,8 +1,8 @@
+import Navbar from '@/components/navbar';
 import '@/styles/globals.scss';
 import type {Metadata} from 'next';
-import {type ReactNode, StrictMode} from 'react';
 import {Montserrat} from 'next/font/google';
-import Navbar from '@/components/navbar';
+import {type ReactNode, StrictMode} from 'react';
 
 // !Fonts
 const montserrat = Montserrat({

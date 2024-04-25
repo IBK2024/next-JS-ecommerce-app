@@ -21,12 +21,36 @@ const config: Config = {
       },
       height: {
         navbar: '60px',
+        hero: 'calc(100vh - 60px)',
       },
       width: {
         smallNavbar: '300px',
+        notFoundImage: '280px',
       },
       padding: {
         '1/2': '2px',
+      },
+      animation: {
+        notFoundSlideDown: 'notFoundSlideDown 0.4s linear',
+        notFoundSlideUp: 'notFoundSlideUp 0.4s linear',
+      },
+      keyframes: {
+        notFoundSlideDown: {
+          from: {
+            transform: 'translate(-50px,-30px)',
+          },
+          to: {
+            transform: 'translate(0px)',
+          },
+        },
+        notFoundSlideUp: {
+          from: {
+            transform: 'translateY(50px)',
+          },
+          to: {
+            transform: 'translateY(0px)',
+          },
+        },
       },
     },
   },
