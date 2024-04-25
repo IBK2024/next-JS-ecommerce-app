@@ -14,7 +14,7 @@ const montserrat = Montserrat({
 // !Metadata
 export const metadata: Metadata = {
   title: "IBK's store",
-  description: 'A simple description of the page',
+  description: 'Quality products at affordable prices',
   icons: {
     icon: [
       {url: '/images/favicons/favicon.ico', type: 'image/x-icon', sizes: '48x48'},
