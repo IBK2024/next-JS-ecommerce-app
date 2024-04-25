@@ -9,7 +9,7 @@ export default function NotFound() {
       <p className='text-xl m-2'>404 page not found</p>
       <Image className='w-notFoundImage h-auto relative' src={notFoundImage} alt='Not found image' priority={true} />
       <Link
-        className='m-5 py-4 px-12 border-4 border-accent bg-accent rounded-2xl text-primary no-underline text-xl animate-notFoundSlideUp'
+        className='m-5 py-4 px-12 border-4 border-accent bg-accent rounded-2xl text-primary no-underline text-xl animate-notFoundSlideUp hover:opacity-90 active:scale-95'
         href='/'
       >
         Take me to home

@@ -6,7 +6,7 @@ import {type ReactNode, StrictMode} from 'react';
 
 // !Fonts
 const montserrat = Montserrat({
-  weight: ['500', '700'],
+  weight: ['500', '700', '900'],
   style: 'normal',
   subsets: ['latin'],
 });

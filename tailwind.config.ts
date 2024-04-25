@@ -8,11 +8,11 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    screens: {
-      tablet: '900px',
-      phone: '500px',
-    },
     extend: {
+      screens: {
+        tablet: '900px',
+        phone: '500px',
+      },
       colors: {
         primary: '#ffffff',
         secondary: '#2c2c2c',
