@@ -2,6 +2,7 @@ import notFoundImage from '@/../public/images/notFoundLost.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
+// !Not found page
 export default function NotFound() {
   return (
     <div className='h-hero w-screen bg-primary flex items-center justify-center flex-col relative overflow-hidden text-secondary *:block'>

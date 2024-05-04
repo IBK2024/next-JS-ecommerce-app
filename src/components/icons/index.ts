@@ -1,6 +1,6 @@
-import Menu, {type MenuProps} from './menu';
-import ShoppingCart, {type ShoppingCartProps} from './shoppingCart';
-import Xmark, {type XmarkProps} from './xMark';
+import Logo from './logo';
+import Menu from './menu';
+import ShoppingCart from './shoppingCart';
+import Xmark from './xMark';
 
-export type {MenuProps, ShoppingCartProps, XmarkProps};
-export {Menu, ShoppingCart, Xmark};
+export {Logo, Menu, ShoppingCart, Xmark};
