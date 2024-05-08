@@ -1,1 +1,3 @@
-export const address = "14 Fake address Rd, London, England"
+import data from './data.json';
+
+export default data;

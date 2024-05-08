@@ -19,10 +19,7 @@ export default function NavigationBarToggleButton() {
   }
 
   return (
-    <div
-      className='transition-all duration-300 ease-in-out cursor-pointer select-none scale-95 block tablet:hidden'
-      onClick={navigationBarToggleButtonOnClick}
-    >
+    <div className='transition-all duration-300 ease-in-out cursor-pointer select-none scale-95 block tablet:hidden' onClick={navigationBarToggleButtonOnClick}>
       <Xmark className={closeButtonClassName} />
       <Menu className={menuButtonClassName} />
     </div>

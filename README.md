@@ -24,6 +24,7 @@ git clone https://github.com/IBK2024/next-js-startup-template.git
 pnpm install
 ```
 
+
 ### Running the application's development server
 
 --> To run the application's development server run the following command:

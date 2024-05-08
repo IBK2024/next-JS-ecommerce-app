@@ -1,4 +1,4 @@
-import {address} from '@/data';
+import data from '@/data';
 import Link from 'next/link';
 import {Logo} from '../icons';
 
@@ -17,7 +17,7 @@ function Footer() {
           </div>
           <div className='laptop:col-span-2 tablet:col-span-4 col-span-12'>
             <h1 className='tracking-wide text-primary font-semibold'>Contact</h1>
-            <p>{address}</p>
+            <p>{data.address}</p>
             <br />
             <p>
               <u>fake.email@fake.email</u>

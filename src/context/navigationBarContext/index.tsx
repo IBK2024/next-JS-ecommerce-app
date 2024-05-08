@@ -1,4 +1,5 @@
 'use client';
+import data from '@/data';
 import {type Dispatch, type ReactNode, type SetStateAction, createContext, useState} from 'react';
 
 // !Navigation bar context value type
@@ -28,11 +29,7 @@ interface NavigationBarContextProviderProps {
 // !Navigation bar context provider
 export default function NavigationBarContextProvider({children}: NavigationBarContextProviderProps) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const navigationBarLinks = [{title: 'Tees', href: '/categories/tees'}];
+  const navigationBarLinks = data.navbarLinks;
 
-  return (
-    <NavigationBarContext.Provider value={{isOpen, setIsOpen, navigationBarLinks}}>
-      {children}
-    </NavigationBarContext.Provider>
-  );
+  return <NavigationBarContext.Provider value={{isOpen, setIsOpen, navigationBarLinks}}>{children}</NavigationBarContext.Provider>;
 }
