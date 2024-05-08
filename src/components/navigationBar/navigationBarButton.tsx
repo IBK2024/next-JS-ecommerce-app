@@ -13,7 +13,7 @@ export default function NavigationBarButton({className, ...props}: NavigationBar
   return (
     <Link
       className={twMerge(
-        'bg-transparent border border-solid border-primary text-primary tracking-normal py-2 px-4 text-xs rounded-3xl font-bold hover:bg-secondary hover:border-none hover:opacity-85 active:scale-95 transition-all duration-300 ease-in-out hidden tablet:block',
+        'bg-transparent border border-none border-primary text-primary tracking-normal py-2 px-4 text-xs rounded-3xl font-bold hover:bg-secondary hover:opacity-85 active:scale-95 transition-all duration-300 ease-in-out hidden tablet:block bg-secondary',
         className
       )}
       {...props}

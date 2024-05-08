@@ -1,7 +1,7 @@
 import type {CategoriesType} from '@/types/categories';
 import Link from 'next/link';
 
-// !Category Props
+// !Category props
 interface CategoryProps {
   category: CategoriesType;
 }

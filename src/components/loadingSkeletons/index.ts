@@ -1,3 +1,4 @@
 import CategoriesLoadingSkeleton from './categoriesLoadingSkeleton';
+import CategoryLoadingSkeleton from './categoryLoadingSkeleton';
 
-export {CategoriesLoadingSkeleton};
+export {CategoriesLoadingSkeleton, CategoryLoadingSkeleton};
